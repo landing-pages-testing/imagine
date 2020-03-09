@@ -634,21 +634,27 @@ h1, h2, h3, h4, h5,
 .img-absolute {
   position: absolute;
   bottom: 0;
-  right: 0;
   top: 60%;
   -webkit-transform: translateY(-50%) translateX(30%);
   -ms-transform: translateY(-50%) translateX(30%);
   transform: translateY(-50%) translateX(30%); }
   .img-absolute img {
     max-width: 100%; }
+
   @media (max-width: 991.98px) {
     .img-absolute {
       position: relative;
+      right: 0;
+      margin-top: 50px;
       top: auto;
       -webkit-transform: translateY(0%) translateX(0%);
       -ms-transform: translateY(0%) translateX(0%);
       transform: translateY(0%) translateX(0%);
       margin-bottom: 30px; } }
+
+  @media (min-width: 991.99px) {
+    .img-absolute {
+      left: 30%;} }
 
 .site-block-subscribe .btn {
   padding-left: 20px;
