@@ -167,6 +167,7 @@ jQuery(document).ready(function($) {
 			stagePadding: 0,
 	    margin: 0,
 	    smartSpeed: 1000,
+		autoplayTimeout: 8500,
 	    autoHeight: true,
 	    autoplay: true,
 	    pauseOnHover: false,
